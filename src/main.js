@@ -7,8 +7,6 @@ import * as ECharts from 'echarts'
 import VueECharts from 'vue-echarts'
 import './style/index.css'
 
-console.log(VueECharts)
-
 Vue.config.productionTip = false
 Vue.prototype.$echarts = ECharts
 // 注册组件后即可使用
