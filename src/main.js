@@ -4,11 +4,15 @@ import router from './router'
 import './plugins/element.js'
 import './plugins/vcharts.js'
 import * as ECharts from 'echarts'
-import VueEcharts from 'vue-echarts'
+import VueECharts from 'vue-echarts'
+import './style/index.css'
+
+console.log(VueECharts)
 
 Vue.config.productionTip = false
 Vue.prototype.$echarts = ECharts
-Vue.component('v-charts', VueEcharts)
+// 注册组件后即可使用
+Vue.component('v-chart', VueECharts)
 
 new Vue({
   router,

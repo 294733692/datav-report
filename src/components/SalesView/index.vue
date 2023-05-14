@@ -1,10 +1,13 @@
 <template>
-  <div>sales view</div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'index'
+  name: 'index',
+  data () {
+    return {}
+  }
 }
 </script>
 
